@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  background-color: #43425d;
+  flex-flow: column;
+  width: 20vw;
+  height: 100vh;
+}
+
+.logo {
+  background-color: #3c3b53;
+  height: 10vh;
+  font-size: 2vw;
+  text-align: center;
+  min-height: 4vw;
+  margin-bottom: 1vh;
+}
+.items {
+  display: flex;
+  flex-flow: column;
+}
+.itemsdraw {
+  padding: 1%;
+  height: 6vh;
+  margin-bottom: 1vh;
+  min-height: 4vh;
+}
+.itemsdraw:first-child {
+  background-color: #3c3b53;
+}
+.itemsdraw > a {
+  text-decoration: none;
+  color: white;
+}

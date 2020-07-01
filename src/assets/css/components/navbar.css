@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  width: 80vw;
+  height: 10vh;
+  min-height: 4vw;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.userinfos {
+  margin-top: 1.5vh;
+  display: flex;
+  margin-right: 2vw;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top: 8vh;
+  right: 1vh;
+}
+.dropdown > a {
+  margin-bottom: 1.5vh;
+  text-decoration: none;
+  color: black;
+}
+.userinfos:hover .dropdown {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+}
+.notifications {
+  margin-right: 1vw;
+}
+.userimage {
+  width: 3vw;
+  height: 3vw;
+  margin-left: 1vw;
+}
