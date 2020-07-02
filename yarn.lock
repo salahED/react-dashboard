@@ -12208,6 +12208,11 @@ use-react-router@^1.0.7:
   dependencies:
     use-force-update "^1.0.5"
 
+use-reducer@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/use-reducer/-/use-reducer-0.0.1.tgz#14f0f42f54d3c285e6efbd14c4419218d46361fb"
+  integrity sha512-lqxll7X4IrLo7AFbm9kVHEkAPOGo+UkXWm1607HR2ZTRshAr8f2zlqS8wpZtmaA+Y7hO/UmA6lOc2lkTFtJGEQ==
+
 use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
