@@ -9,12 +9,12 @@ const Dashboard = () => {
   const [screen, screenDispatch] = useReducer(ScreensReducer, initialState);
 
   return (
-    // <ScreenContext.Provider value={{ screen, screenDispatch }}>
-    <div className="dashboard">
-      <Title />
-      <Main />
-    </div>
-    // </ScreenContext.Provider>
+    <ScreenContext.Provider value={{ screen, screenDispatch }}>
+      <div className="dashboard">
+        <Title />
+        <Main />
+      </div>
+    </ScreenContext.Provider>
   );
 };
 export default Dashboard;

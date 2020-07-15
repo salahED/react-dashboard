@@ -1,52 +1,59 @@
 import React, { useContext } from "react";
-import ScreenContext from "../../context/ScreenContext";
+// import ScreenContext from "../../context/ScreenContext";
 import ItemsDraw from "./itemsDraw";
 const Items = () => {
-  const screenDispatch = useContext(ScreenContext);
+  // const screenDispatch = useContext(ScreenContext);
 
   return (
     <div className="items">
       <ItemsDraw
         icon="x"
         text="dashboard"
-        onClick={() =>
-          screenDispatch({ type: "CHANGE_SCREEN", screen: "Stats" })
-        }
+        screen="Stats"
+        // onClick={() =>
+        //   screenDispatch({ type: "CHANGE_SCREEN", screen: "Stats" })
+        // }
       />
       <ItemsDraw
         icon="x"
         text="gestion des roles"
-        onClick={() =>
-          screenDispatch({ type: "CHANGE_SCREEN", screen: "Gestionrole" })
-        }
+        screen="Gestionrole"
+        // onClick={() => {
+        //   console.log("sssssssssssssssss");
+        //   screenDispatch({ type: "CHANGE_SCREEN", screen: "Gestionrole" });
+        // }}
       />
       <ItemsDraw
         icon="x"
         text="gestion des tables de ref"
-        onClick={() =>
-          screenDispatch({ type: "CHANGE_SCREEN", screen: "Tableref" })
-        }
+        screen="Tableref"
+        // onClick={() =>
+        //   screenDispatch({ type: "CHANGE_SCREEN", screen: "Tableref" })
+        // }
       />
       <ItemsDraw
         icon="x"
         text="tracabilité"
-        onClick={() =>
-          screenDispatch({ type: "CHANGE_SCREEN", screen: "Tracabilite" })
-        }
+        screen="Tracabilite"
+        // onClick={() =>
+        //   screenDispatch({ type: "CHANGE_SCREEN", screen: "Tracabilite" })
+        // }
       />
       <ItemsDraw
         icon="x"
         text="gestion des entreprises"
-        onClick={() =>
-          screenDispatch({ type: "CHANGE_SCREEN", screen: "GestionEntreprise" })
-        }
+        screen="GestionEntreprise"
+        // onClick={() =>
+        //   screenDispatch({ type: "CHANGE_SCREEN", screen: "GestionEntreprise" })
+        // }
       />
       <ItemsDraw
         icon="x"
         text="settings"
-        onClick={() =>
-          screenDispatch({ type: "CHANGE_SCREEN", screen: "Settings" })
-        }
+        screen="Settings"
+        // onClick={() =>
+        //   screenDispatch({ type: "CHANGE_SCREEN", screen: "Settings" })
+        // }
       />
     </div>
   );
